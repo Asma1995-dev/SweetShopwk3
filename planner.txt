@@ -1,0 +1,27 @@
+homepage page
+- change font and colour of sweetshop if possible
+- add background color
+- navigation +
+- heading +
+- add intro to website page +
+- add 2 images of sweets and chocolate gift baskets
+
+sweets page
+- add 3 sweets for vegan +, halal, gelatin sweets 
+- add background color +
+
+chocolate page 
+- add 6 different chocolates
+- add background color
+
+contact us 
+- add form asking for name, email, comments, submit button
+- add style to form
+- add background color
+
+order page
+- add form asking for sweet/chocolate name and quantity (possibly a dropdown menu and number box) name, email, card details, address and number
+- add style to form
+- add background color
+
+Use same background color, header and footer in all pages, use simliar styles for the forms

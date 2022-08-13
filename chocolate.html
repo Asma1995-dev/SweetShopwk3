@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SweetShop</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the footer */
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2>SweetShop</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="sweets.html">Sweets</a></li>
+      <li><a href="chocolate.html">Chocolate</a></li>
+      <li><a href="orderform.html">Order Form</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+
+
+  </nav>
+
+  <body style="background-color: rgba(255, 255, 128, .5);">
+    
+  <h1>Chocolate</h1>
+  
+  <div id="banner" style="overflow: hidden;justify-content:space-around;">
+    <div class="banner" style="max-width: 20%;max-height: 20%;display: inline-block; margin-right: 100px;">
+        <img src="crunchiechoc.jpg"height="200" width="200" >
+    <p style="text-align: center">Cadbury Crunchie</p>
+    <p style="font-size: medium; color: red; text-align: center;">4 Pack - £1.20</p>
+    </div>
+    <div class="banner" style="max-width: 20%;max-height: 20%;display: inline-block; margin-right: 50px;">
+        <img src="cadburycaramelchoc.jpg" height="200" width="200">
+    <p style="text-align: center">Cadbury Caramel Chocolate</p>
+    <p style="font-size: medium; color: red; text-align: center;"> 4 Pack - £1.20</p>
+    </div>
+    <div class="banner" style="max-width: 20%;max-height: 20%;display: inline-block;">
+        <img src="cadburycurlywurly.jpg" height="200" width="200">
+    <p style="text-align: center">Cadbury Curly Wurly</p>
+    <p style="font-size: medium; color: red; text-align: center;">5 Pack - £1</p>
+    </div>
+    <br>
+   <div class="banner" style="max-width: 20%;max-height: 20%;display: inline-block; margin-right: 100px;">
+    <img src="cadburydoubledecker.jpg"height="200" width="200">
+    <p style="text-align: center">Cadbury Double Decker</p>
+    <p style="font-size: medium; color: red; text-align: center;">4 Pack - £1.20</p>
+    </div>
+    <div class="banner" style="max-width: 20%;max-height: 20%;display: inline-block; margin-right: 50px;">
+    <img src="cadburyfudge.jpg" height="200" width="200">
+    <p style="text-align: center">Cadbury Fudge</p>
+    <p style="font-size: medium; color: red; text-align: center;">5 Pack - £1</p>
+    </div>
+    <div class="banner" style="max-width: 20%;max-height: 20%;display: inline-block;">
+    <img src="chompchoc.jpg" height="200" width="200">
+    <p style="text-align: center">Cadbury Chomp</p>
+    <p style="font-size: medium; color: red; text-align: center;">5 Pack - £1</p>
+    </div>
+
+
+<BR><BR>
+
+  <footer>
+  <p> ©2022 All Rights Reserved | POWERED BY UNIQUE DESIGNS.</p>
+</footer>
+
+  </body>
+
+          
+</html>
